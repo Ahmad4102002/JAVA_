@@ -7,7 +7,7 @@ public class Program_12 {
     
     }
 
-    public static Boolean checkPalindrome(String s){
+    public static boolean checkPalindrome(String s){
         char[] arr = s.toUpperCase().toCharArray();
         int left = 0, right = arr.length -1;
 
